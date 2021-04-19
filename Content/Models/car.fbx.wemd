@@ -1,0 +1,117 @@
+!WaveEngine.Assets.Exporters.ModelMetaFile,WaveEngine.Assets
+Id: efa9496a-13bc-4176-b1b2-0ecdce22ae1c
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: e1bbc316-3f8b-47c2-92be-945c5d62bb14
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: aedda5eb-a12f-4a06-a853-ebfcef43c2d5
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: MetalDkGlossy
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Chrome
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: LicPlate
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: HdLightsPlasticBump
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intCarbon
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Rubber
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: MetalLt
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intMetallDk
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intPlasticLtBump
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Body_plastic
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intCarpet
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intFabricLt
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intPlasticGrey
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intFabricDk
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intSeatPatterns
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: SeatLeather
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intTexGlossyButtons
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intTexButtons
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intPlasticRed
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Speakers
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: CarPaint
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: GlassLights
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intPlasticDkmatte
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Aluminum
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: HdLightsLed
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: ChromeLightsBump
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelTireBMP
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelBrakeDisk
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelAluminumRim
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelGlossyMet
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelLogo
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelMet
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: BrakeCaliper
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: GlassTextured
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: RLightsChromeGlass
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: GlassRedLights
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: HdLightsLens
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: 22 - Default
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Dome
+        Item2: 00000000-0000-0000-0000-000000000000
+    Nodes:
+      - RootNode
+      - RootNode.MetalDkGlossy
+      - RootNode.Body_plastic
+      - RootNode.RLightsChromeGlass
+      - RootNode.Undercarriage
+      - RootNode.CarPaint
+      - RootNode.others
+      - RootNode.Wheels
+      - RootNode.Glass
+      - RootNode.Plane001
+      - RootNode.DomeLight
+      - RootNode.CameraAnim_Target
+      - RootNode.CameraAnim
+      - RootNode.OmniInterior
+      - RootNode.Group
+      - RootNode.Group.Dome
+SwapWindingOrder: false
