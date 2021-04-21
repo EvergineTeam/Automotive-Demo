@@ -7,38 +7,44 @@
         Title="Automotive Demo" Height="600" Width="1024">
     <Grid>
         <ContentControl x:Name="WaveContainer"/>
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20">
-            <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
-                <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="White" MouseUp="OnMouseUp"/>
-                <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="White" StrokeThickness="2.5" Opacity="0.8"/>
-                <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Fill="White" Opacity=".5" Visibility="Hidden"/>
-            </Canvas>
+        <Grid VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20">
+            <Border Background="Gray" CornerRadius="45" Opacity="0.3"/>
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <StackPanel.Effect>
+                    <DropShadowEffect ShadowDepth="11" BlurRadius="10" Direction="-90" Opacity="0.2"/>
+                </StackPanel.Effect>
+                <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
+                    <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="White" MouseUp="OnMouseUp"/>
+                    <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="White" StrokeThickness="2.5" Opacity="0.5"/>
+                    <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Fill="White" Opacity=".5" Visibility="Hidden"/>
+                </Canvas>
 
-            <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
-                <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="LightGray" MouseUp="OnMouseUp"/>
-                <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="LightGray" StrokeThickness="2.5" Opacity="0.8"/>
-            </Canvas>
+                <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
+                    <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="LightGray" MouseUp="OnMouseUp"/>
+                    <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="LightGray" StrokeThickness="2.5" Opacity="0.5"/>
+                </Canvas>
 
-            <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
-                <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="Gray" MouseUp="OnMouseUp"/>
-                <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="Gray" StrokeThickness="2.5" Opacity="0.8"/>
-            </Canvas>
-            <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
-                <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="DodgerBlue" MouseUp="OnMouseUp"/>
-                <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="DodgerBlue" StrokeThickness="2.5" Opacity="0.8"/>
-            </Canvas>
-            <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
-                <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="Orange" MouseUp="OnMouseUp"/>
-                <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="Orange" StrokeThickness="2.5" Opacity="0.8"/>
-            </Canvas>
-            <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
-                <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="Red" MouseUp="OnMouseUp"/>
-                <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="Red" StrokeThickness="2.5" Opacity="0.8"/>
-            </Canvas>
-            <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
-                <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="Black" MouseUp="OnMouseUp"/>
-                <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="Black" StrokeThickness="2.5" Opacity="0.8"/>
-            </Canvas>
-        </StackPanel>
+                <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
+                    <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="Gray" MouseUp="OnMouseUp"/>
+                    <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="Gray" StrokeThickness="2.5" Opacity="0.5"/>
+                </Canvas>
+                <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
+                    <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="DodgerBlue" MouseUp="OnMouseUp"/>
+                    <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="DodgerBlue" StrokeThickness="2.5" Opacity="0.5"/>
+                </Canvas>
+                <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
+                    <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="Orange" MouseUp="OnMouseUp"/>
+                    <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="Orange" StrokeThickness="2.5" Opacity="0.5"/>
+                </Canvas>
+                <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
+                    <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="Red" MouseUp="OnMouseUp"/>
+                    <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="Red" StrokeThickness="2.5" Opacity="0.5"/>
+                </Canvas>
+                <Canvas  Width="60" Height="60" Cursor="Hand" Margin="5">
+                    <Ellipse Canvas.Left="5" Canvas.Top="5" Width="50" Height="50" Fill="Black" MouseUp="OnMouseUp"/>
+                    <Ellipse Canvas.Left="0" Canvas.Top="0" Width="60" Height="60" Stroke="Black" StrokeThickness="2.5" Opacity="0.5"/>
+                </Canvas>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
