@@ -6,7 +6,7 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: b64df4e1-6812-4611-8a4f-337965e117ce
+  Id: 7e9d8275-8a4c-4b0b-a42b-a53a6d846c23
   ActiveDirectives:
     - DIFF
     - IBL
@@ -24,10 +24,10 @@ MaterialInfo:
       ValueByteArray: AwAAAAAAAAA=
     - Name: ViewProj
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: Be4UQMqqc75y2Cq+EtQqvo7OlzKyBgVACjwCv7Q4Ar8WUuu+TTaav9k/WL9QOli/4Hs4tPHOIjUe7ItAvBuPQA==
+      ValueByteArray: RToXQNJDBz7BtFE9Y69RPQAAAADyH9M/rvQ6v+XvOr9s0DU+xwThv2BtLr/paC6/ybQ/M8OFGzUg7ItAvhuPQA==
     - Name: EyePosition
       Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
-      ValueByteArray: 8v0+P5GXEUADwHFA
+      ValueByteArray: YG9qvoMAUUAA/0JA
     - Name: EyeCount
       Type: System.Int32
       ValueByteArray: AQAAAA==
@@ -45,16 +45,16 @@ MaterialInfo:
       ValueByteArray: AACAPw==
     - Name: MultiviewViewProj
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: Be4UQMqqc75y2Cq+EtQqvo7OlzKyBgVACjwCv7Q4Ar8WUuu+TTaav9k/WL9QOli/4Hs4tPHOIjUe7ItAvBuPQA==
+      ValueByteArray: RToXQNJDBz7BtFE9Y69RPQAAAADyH9M/rvQ6v+XvOr9s0DU+xwThv2BtLr/paC6/ybQ/M8OFGzUg7ItAvhuPQA==
     - Name: MultiviewEyePosition
       Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
-      ValueByteArray: 8v0+P5GXEUADwHFAAACAPw==
+      ValueByteArray: YG9qvoMAUUAA/0JAAACAPw==
     - Name: BaseColor
       Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
       ValueByteArray: AACAPwAAgD8AAIA/
     - Name: Alpha
       Type: System.Single
-      ValueByteArray: mpmZPg==
+      ValueByteArray: AACAPw==
     - Name: Metallic
       Type: System.Single
       ValueByteArray: AAAAPw==
@@ -138,9 +138,9 @@ MaterialInfo:
       Name: null
     - ID: d81d459c-c433-4ee3-bfe5-b45fbce12736
       Name: IblDFGTexture
-    - ID: a29cbbc8-da71-4127-bb01-7071c5794dc2
+    - ID: 5c9fb45c-e837-4e36-aca8-ee46818c0d55
       Name: IBLRadianceTexture
-    - ID: 602ff50f-db35-4486-aaf5-3446f65d5a3c
+    - ID: 66901bde-cdee-4c68-b2da-af3646af1de2
       Name: IBLIrradianceTexture
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null

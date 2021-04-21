@@ -1,20 +1,16 @@
 !WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
-Id: 08a4a26a-67c4-433d-9ef5-a3147c66b403
+Id: 79cc1e39-3d33-4f11-ab49-113a92209daf
 DefaultProfile:
   ExcludeAsset: false
   Name: null
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: 0e8470ab-7123-4f94-ae92-26ec002e2f32
-  ActiveDirectives:
-    - DIFF
-    - EMIS
-    - IBL
-    - LIT
+  Id: 16dda9f2-0ad2-47e1-ad92-8e4f57c5220a
+  ActiveDirectives: []
   AllowInstancing: false
   EffectID: daa1f60a-82ad-40fc-8fbb-7b85caa6de0a
-  Layer: 0db59561-b3f5-444f-b5de-e62e3a5b42bf
+  Layer: 5253fbba-4e11-4a1f-a2d8-613ea391b2d7
   OrderBias: 0
   Parameters:
     - Name: World
@@ -22,10 +18,10 @@ MaterialInfo:
       ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
     - Name: ForwardLightMask
       Type: WaveEngine.Mathematics.UInt2,WaveEngine.Mathematics
-      ValueByteArray: AwAAAAAAAAA=
+      ValueByteArray: AQAAAAAAAAA=
     - Name: ViewProj
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: 8OEeQAAAAAAAAAAAAAAAAAAAAACYMgpADf/kvjD55L4AAAAAmjKKvwv/ZL8u+WS/AAAAAHmCGjUf7ItAvRuPQA==
+      ValueByteArray: aKcXQAAAAAAAAAAAAAAAAAAAAACYMgpADf/kvjD55L4AAAAAmjKKvwv/ZL8u+WS/AAAAAHmCGjUf7ItAvRuPQA==
     - Name: EyePosition
       Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
       ValueByteArray: AAAAAAAAAEAAAIBA
@@ -46,7 +42,7 @@ MaterialInfo:
       ValueByteArray: AACAPw==
     - Name: MultiviewViewProj
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: 8OEeQAAAAAAAAAAAAAAAAAAAAACYMgpADf/kvjD55L4AAAAAmjKKvwv/ZL8u+WS/AAAAAHmCGjUf7ItAvRuPQA==
+      ValueByteArray: aKcXQAAAAAAAAAAAAAAAAAAAAACYMgpADf/kvjD55L4AAAAAmjKKvwv/ZL8u+WS/AAAAAHmCGjUf7ItAvRuPQA==
     - Name: MultiviewEyePosition
       Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
       ValueByteArray: AAAAAAAAAEAAAIBAAACAPw==
@@ -64,7 +60,7 @@ MaterialInfo:
       ValueByteArray: AAAAAA==
     - Name: Reflectance
       Type: System.Single
-      ValueByteArray: AAAAQA==
+      ValueByteArray: AAAAPw==
     - Name: ReferenceAlpha
       Type: System.Single
       ValueByteArray: AAAAAA==
@@ -91,10 +87,10 @@ MaterialInfo:
       ValueByteArray: AAAAAA==
     - Name: IrradianceSH
       Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
-      ValueByteArray: AAAAAAAAAAAAAAAAAAAAAA==
+      ValueByteArray: QAAAACUAAABaAAADAGAQAA==
     - Name: ShadowViewProjectionArray
       Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
-      ValueByteArray: y3lzPwB+u72uEu6+AAAAAAAAAAB+2Kk/qsKFvQAAAABIOW+/INO+vfRN8r4AAAAAizjOPhtemL+uYIE/AACAPw==
+      ValueByteArray: y3lzPwJ+u72sEu6+AAAAAAAAAAB92Kk/rMKFvQAAAABIOW+/ItO+vfNN8r4AAAAAXKXUv0MxRcDAHjnAAACAPw==
   Samplers:
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
@@ -123,8 +119,6 @@ MaterialInfo:
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
   Textures:
-    - ID: ca513630-1c01-46cf-834b-4eeda8246f04
-      Name: BaseColorTexture
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
     - ID: 00000000-0000-0000-0000-000000000000
@@ -133,16 +127,18 @@ MaterialInfo:
       Name: null
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
-    - ID: ca513630-1c01-46cf-834b-4eeda8246f04
-      Name: EmissiveTexture
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
     - ID: d81d459c-c433-4ee3-bfe5-b45fbce12736
       Name: IblDFGTexture
-    - ID: 5ceb6ab1-88ce-4491-b736-645b22eed639
-      Name: IBLRadianceTexture
-    - ID: 53724c23-c8a8-418d-b3a1-2f4559514e5f
-      Name: IBLIrradianceTexture
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
     - ID: 00000000-0000-0000-0000-000000000000

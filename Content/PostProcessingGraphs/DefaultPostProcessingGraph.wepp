@@ -6,9 +6,9 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 PostProcessingGraphInfo:
-  Id: ca95f62c-e71d-41dd-a576-0d5c8e7837ac
+  Id: 581ab741-e33e-4edb-b320-4b465d8577c8
   graphDescription:
-    Id: b24d33f4-6d5b-42bc-95f5-b969cff7ee6d
+    Id: 4ec1ddd2-7bfd-4fb3-821a-bba34fb76e4c
     StartNode:
       Name: Render
       Id: e395f201-5aa4-44c3-8925-ca9b5a24d76b
@@ -93,22 +93,22 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 0
               Value:
-                M11: 0.315310806
-                M12: 1.87856931E-05
-                M13: 0.601811707
-                M14: 0.0
-                M21: 0.0895869508
-                M22: 0.401675671
-                M23: -0.0469505675
-                M24: -8.38646983E-08
-                M31: 26.3633327
-                M32: -15.4371481
-                M33: -13.2469139
-                M34: -9.99938965
-                M41: -25.506115
-                M42: 15.1939945
-                M43: 12.7977533
-                M44: 10.0000563
+                M11: -0.679896116
+                M12: -1.08058759E-06
+                M13: -0.0073363292
+                M14: 5.24557064E-09
+                M21: -0.00108067144
+                M22: 0.401929885
+                M23: 0.100121222
+                M24: -0.0
+                M31: 23.6283112
+                M32: -22.9675808
+                M33: 63.2860718
+                M34: -9.99931622
+                M41: -23.6403542
+                M42: 22.7273846
+                M43: -62.3200035
+                M44: 9.99998188
             Hidden: true
             ConnectedWith: null
           - Name: ViewProjection
@@ -118,22 +118,22 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 0
               Value:
-                M11: 0.683085322
-                M12: 0.52214843
-                M13: 0.85903281
-                M14: 0.858975589
-                M21: 4.15511931E-05
-                M22: 2.34113312
-                M23: -0.244199112
-                M24: -0.24418284
-                M31: 1.30375969
-                M32: -0.273646414
-                M33: -0.450069517
-                M34: -0.450039536
-                M41: 0.0737021565
-                M42: -1.87510192
-                M43: 3.1380651
-                M44: 3.23785591
+                M11: -1.47064173
+                M12: -0.0063003879
+                M13: -0.0104700606
+                M14: -0.0104693631
+                M21: -2.30592605E-06
+                M22: 2.34261703
+                M23: -0.241744697
+                M24: -0.241728589
+                M31: -0.0158687439
+                M32: 0.583550394
+                M33: 0.970351875
+                M34: 0.970287204
+                M41: -3.57554412
+                M42: -1.70236647
+                M43: 6.57191563
+                M44: 6.67147779
             Hidden: true
             ConnectedWith: null
           - Name: PreviousViewProjection
@@ -143,22 +143,22 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 0
               Value:
-                M11: 0.683085322
-                M12: 0.52214843
-                M13: 0.85903281
-                M14: 0.858975589
-                M21: 4.15511931E-05
-                M22: 2.34113312
-                M23: -0.244199112
-                M24: -0.24418284
-                M31: 1.30375969
-                M32: -0.273646414
-                M33: -0.450069517
-                M34: -0.450039536
-                M41: 0.0737021565
-                M42: -1.87510192
-                M43: 3.1380651
-                M44: 3.23785591
+                M11: -1.47064173
+                M12: -0.0063003879
+                M13: -0.0104700606
+                M14: -0.0104693631
+                M21: -2.30592605E-06
+                M22: 2.34261703
+                M23: -0.241744697
+                M24: -0.241728589
+                M31: -0.0158687439
+                M32: 0.583550394
+                M33: 0.970351875
+                M34: 0.970287204
+                M41: -3.57554412
+                M42: -1.70236647
+                M43: 6.57191563
+                M44: 6.67147779
             Hidden: true
             ConnectedWith: null
           - Name: Near
@@ -186,8 +186,8 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 0
               Value:
-                X: 0.000302114815
-                Y: 0.000330360141
+                X: 0.000378100405
+                Y: 0.000404575374
             Hidden: true
             ConnectedWith: null
           - Name: PreviousJitter
@@ -197,8 +197,8 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 0
               Value:
-                X: -0.0
-                Y: -0.000330360141
+                X: -0.000378100405
+                Y: 0.000183897908
             Hidden: true
             ConnectedWith: null
           - Name: Depth
@@ -296,7 +296,7 @@ PostProcessingGraphInfo:
               Offset: 4
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 1.0
+              Value: 0.5
             Hidden: false
             ConnectedWith: null
           - Name: Power
@@ -314,7 +314,7 @@ PostProcessingGraphInfo:
               Offset: 12
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 10.0
+              Value: 1.0
             Hidden: false
             ConnectedWith: null
           - Name: Time
@@ -323,7 +323,7 @@ PostProcessingGraphInfo:
               Offset: 16
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 89.5082092
+              Value: 0.798676789
             Hidden: true
             ConnectedWith: null
           - Name: ViewProjection
@@ -333,22 +333,22 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 0.683085322
-                M12: 0.52214843
-                M13: 0.85903281
-                M14: 0.858975589
-                M21: 4.15511931E-05
-                M22: 2.34113312
-                M23: -0.244199112
-                M24: -0.24418284
-                M31: 1.30375969
-                M32: -0.273646414
-                M33: -0.450069517
-                M34: -0.450039536
-                M41: 0.0737021565
-                M42: -1.87510192
-                M43: 3.1380651
-                M44: 3.23785591
+                M11: -1.47064173
+                M12: -0.0063003879
+                M13: -0.0104700606
+                M14: -0.0104693631
+                M21: -2.30592605E-06
+                M22: 2.34261703
+                M23: -0.241744697
+                M24: -0.241728589
+                M31: -0.0158687439
+                M32: 0.583550394
+                M33: 0.970351875
+                M34: 0.970287204
+                M41: -3.57554412
+                M42: -1.70236647
+                M43: 6.57191563
+                M44: 6.67147779
             Hidden: true
             ConnectedWith: null
           - Name: Depth
@@ -658,7 +658,7 @@ PostProcessingGraphInfo:
               Offset: 196
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 10.0050001
+              Value: 10.0
             Hidden: false
             ConnectedWith: null
           - Name: RefinementSteps
@@ -1461,7 +1461,7 @@ PostProcessingGraphInfo:
               Offset: 12
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 9.0765934
+              Value: 20.0
             Hidden: false
             ConnectedWith: null
           - Name: FocalLength
@@ -1489,8 +1489,8 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 0
               Value:
-                X: 0.000302114815
-                Y: 0.000330360141
+                X: 0.000378100405
+                Y: 0.000404575374
             Hidden: true
             ConnectedWith: null
           - Name: Input
@@ -1733,7 +1733,7 @@ PostProcessingGraphInfo:
               Offset: 0
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: Circle
+              Value: Hexagon
             Hidden: false
             ConnectedWith: null
           - Name: ShapeSize
@@ -1742,7 +1742,7 @@ PostProcessingGraphInfo:
               Offset: 0
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 5.0
+              Value: 10.0
             Hidden: false
             ConnectedWith: null
           - Name: ShapeRotation
@@ -1825,7 +1825,7 @@ PostProcessingGraphInfo:
               Offset: 0
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: Circle
+              Value: Hexagon
             Hidden: false
             ConnectedWith: null
           - Name: ShapeSize
@@ -1834,7 +1834,7 @@ PostProcessingGraphInfo:
               Offset: 0
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 5.0
+              Value: 10.0
             Hidden: false
             ConnectedWith: null
           - Name: ShapeRotation
@@ -2005,7 +2005,7 @@ PostProcessingGraphInfo:
               Offset: 0
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 12.0
+              Value: 20.0
             Hidden: false
             ConnectedWith: null
           - Name: FadePower
@@ -2014,7 +2014,7 @@ PostProcessingGraphInfo:
               Offset: 4
               ResourceType: ConstantBuffer
               Slot: 0
-              Value: 0.938504159
+              Value: 0.827055097
             Hidden: false
             ConnectedWith: null
           - Name: FocalDistance
@@ -2635,21 +2635,21 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 0.464094162
-                M12: 0.216280982
-                M13: -0.858975589
+                M11: -0.999941587
+                M12: -0.00260970625
+                M13: 0.0104693631
                 M14: -0.0
-                M21: 2.82302462E-05
-                M22: 0.969729185
-                M23: 0.24418284
-                M24: -0.0
-                M31: 0.885785758
-                M32: -0.113348067
-                M33: 0.450039536
-                M34: -0.0
-                M41: 0.0500738919
-                M42: -0.776692688
-                M43: -3.23785591
+                M21: -1.56788099E-06
+                M22: 0.970343828
+                M23: 0.241728589
+                M24: 0.0
+                M31: -0.0107897231
+                M32: 0.241714507
+                M33: -0.970287204
+                M34: 0.0
+                M41: -2.43113947
+                M42: -0.705143332
+                M43: -6.67147779
                 M44: 1.0
             Hidden: true
             ConnectedWith: null
@@ -2660,7 +2660,7 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 1.47186792
+                M11: 1.47072768
                 M12: 0.0
                 M13: 0.0
                 M14: 0.0
@@ -2668,8 +2668,8 @@ PostProcessingGraphInfo:
                 M22: 2.41421342
                 M23: 0.0
                 M24: 0.0
-                M31: -0.000302114815
-                M32: 0.000550600176
+                M31: 0.000378100405
+                M32: 0.000404575374
                 M33: -1.00006664
                 M34: -1.0
                 M41: 0.0
@@ -2760,21 +2760,21 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 0.464094162
-                M12: 0.216280982
-                M13: -0.858975589
+                M11: -0.999941587
+                M12: -0.00260970625
+                M13: 0.0104693631
                 M14: -0.0
-                M21: 2.82302462E-05
-                M22: 0.969729185
-                M23: 0.24418284
-                M24: -0.0
-                M31: 0.885785758
-                M32: -0.113348067
-                M33: 0.450039536
-                M34: -0.0
-                M41: 0.0500738919
-                M42: -0.776692688
-                M43: -3.23785591
+                M21: -1.56788099E-06
+                M22: 0.970343828
+                M23: 0.241728589
+                M24: 0.0
+                M31: -0.0107897231
+                M32: 0.241714507
+                M33: -0.970287204
+                M34: 0.0
+                M41: -2.43113947
+                M42: -0.705143332
+                M43: -6.67147779
                 M44: 1.0
             Hidden: true
             ConnectedWith: null
@@ -2785,7 +2785,7 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 1.47186792
+                M11: 1.47072768
                 M12: 0.0
                 M13: 0.0
                 M14: 0.0
@@ -2793,8 +2793,8 @@ PostProcessingGraphInfo:
                 M22: 2.41421342
                 M23: 0.0
                 M24: 0.0
-                M31: -0.000302114815
-                M32: 0.000550600176
+                M31: 0.000378100405
+                M32: 0.000404575374
                 M33: -1.00006664
                 M34: -1.0
                 M41: 0.0
@@ -2885,21 +2885,21 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 0.464094162
-                M12: 0.216280982
-                M13: -0.858975589
+                M11: -0.999941587
+                M12: -0.00260970625
+                M13: 0.0104693631
                 M14: -0.0
-                M21: 2.82302462E-05
-                M22: 0.969729185
-                M23: 0.24418284
-                M24: -0.0
-                M31: 0.885785758
-                M32: -0.113348067
-                M33: 0.450039536
-                M34: -0.0
-                M41: 0.0500738919
-                M42: -0.776692688
-                M43: -3.23785591
+                M21: -1.56788099E-06
+                M22: 0.970343828
+                M23: 0.241728589
+                M24: 0.0
+                M31: -0.0107897231
+                M32: 0.241714507
+                M33: -0.970287204
+                M34: 0.0
+                M41: -2.43113947
+                M42: -0.705143332
+                M43: -6.67147779
                 M44: 1.0
             Hidden: true
             ConnectedWith: null
@@ -2910,7 +2910,7 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 1.47186792
+                M11: 1.47072768
                 M12: 0.0
                 M13: 0.0
                 M14: 0.0
@@ -2918,8 +2918,8 @@ PostProcessingGraphInfo:
                 M22: 2.41421342
                 M23: 0.0
                 M24: 0.0
-                M31: -0.000302114815
-                M32: 0.000550600176
+                M31: 0.000378100405
+                M32: 0.000404575374
                 M33: -1.00006664
                 M34: -1.0
                 M41: 0.0
@@ -3329,21 +3329,21 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 0.464094162
-                M12: 0.216280982
-                M13: -0.858975589
+                M11: -0.999941587
+                M12: -0.00260970625
+                M13: 0.0104693631
                 M14: -0.0
-                M21: 2.82302462E-05
-                M22: 0.969729185
-                M23: 0.24418284
-                M24: -0.0
-                M31: 0.885785758
-                M32: -0.113348067
-                M33: 0.450039536
-                M34: -0.0
-                M41: 0.0500738919
-                M42: -0.776692688
-                M43: -3.23785591
+                M21: -1.56788099E-06
+                M22: 0.970343828
+                M23: 0.241728589
+                M24: 0.0
+                M31: -0.0107897231
+                M32: 0.241714507
+                M33: -0.970287204
+                M34: 0.0
+                M41: -2.43113947
+                M42: -0.705143332
+                M43: -6.67147779
                 M44: 1.0
             Hidden: true
             ConnectedWith: null
@@ -3354,7 +3354,7 @@ PostProcessingGraphInfo:
               ResourceType: ConstantBuffer
               Slot: 1
               Value:
-                M11: 1.47186792
+                M11: 1.47072768
                 M12: 0.0
                 M13: 0.0
                 M14: 0.0
@@ -3362,8 +3362,8 @@ PostProcessingGraphInfo:
                 M22: 2.41421342
                 M23: 0.0
                 M24: 0.0
-                M31: -0.000302114815
-                M32: 0.000550600176
+                M31: 0.000378100405
+                M32: 0.000404575374
                 M33: -1.00006664
                 M34: -1.0
                 M41: 0.0

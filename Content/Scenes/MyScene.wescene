@@ -38,92 +38,6 @@ Items:
     Children: []
     Id: 3aea6832-ccae-4bc6-9bb7-64229c7c2de0
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
-    Name: Camera
-    Tag: null
-    IsEnabled: true
-    IsStatic: false
-    Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
-        Id: 809f1d2c-2305-4916-acfe-f81399ffb235
-        IsEnabled: true
-        LocalOrientation:
-          W: 0.509198308
-          X: -0.0319712907
-          Y: -0.858365059
-          Z: -0.0538914464
-        LocalPosition:
-          X: -4.94166613
-          Y: 1.53275919
-          Z: -2.56077552
-        LocalScale:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-      - !WaveEngine.Components.Cameras.FreeCamera3D,WaveEngine.Components
-        Id: 07d3e21d-cd4b-412f-88a6-1331d8afa583
-        IsEnabled: true
-        MaxPitch: 1.49225616
-        MouseSensibility: 0.0299999993
-        Speed: 5.0
-        TouchMoveAndOrientationRatio: 0.5
-        TouchSensibility: 1.0
-        UpdateOrder: 0.514999986
-      - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
-        Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
-        Aperture: 1.0
-        AspectRatio: 1.64023781
-        AutoDepthBounds: true
-        AutoExposureEnabled: true
-        CameraOrder: 0.0
-        ClearDepth: 1.0
-        ClearFlags: All
-        ClearStencil: 0
-        Compensation: 0.0
-        DepthRange:
-          MaxDepth: 1.0
-          MinDepth: 0.0
-        DisplayTag: null
-        DisplayTagDirty: true
-        Exposure: 1.14337385
-        FarPlane: 50.0
-        FieldOfView: 0.785572708
-        FieldOfViewAxis: Vertical
-        FocalDistance: 1.0
-        FocalLength: 50.0
-        FrustumCullingEnabled: true
-        HDREnabled: true
-        IsEnabled: true
-        LayerMaskDefaultValue: true
-        LinearBackgroundColor:
-          A: 1.0
-          B: 0.851251662
-          G: 0.306634784
-          R: 0.12752977
-        LogLuminanceRange: 12.0
-        MinLogLuminance: -10.0
-        NearPlane: 0.100000001
-        ScreenViewport:
-          Height: 1009.0
-          MaxDepth: 1.0
-          MinDepth: 0.0
-          Width: 1655.0
-          X: 0.0
-          Y: 0.0
-        Sensitivity: 100.0
-        SensorSize:
-          X: 36.0
-          Y: 24.0
-        ShutterSpeed: 1.20000005
-        TAU: 1.10000002
-        TagFilter: null
-        UpVector:
-          X: 0.0
-          Y: 1.0
-          Z: 0.0
-        UsePhysicalParameters: false
-    Children: []
-    Id: 9841b6b3-9c09-4b60-b442-a5c63257ee02
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
     Name: SunLight
     Tag: null
     IsEnabled: true
@@ -164,7 +78,7 @@ Items:
           B: 0.0669290274
           G: 0.358414203
           R: 1.0
-        ShadowBias: 0.00100000005
+        ShadowBias: 0.0109999999
         ShadowDistance: 8.0
         ShadowOpacity: 1.0
         SplitDistance:
@@ -267,7 +181,7 @@ Items:
         IsCullingEnabled: true
         IsEnabled: true
         IsGlobal: true
-        LayerOrder: 9
+        LayerOrder: 1
         OrderBias: 0
         RenderFlags: CastShadows
         ppGraph: dd593717-0922-4f58-9c85-c309658eff03
@@ -291,7 +205,7 @@ Items:
     Children: []
     Id: 5f8234ac-8306-4055-9ea8-848ef414e8be
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
-    Name: car_fbx
+    Name: car
     Tag: null
     IsEnabled: true
     IsStatic: false
@@ -312,6 +226,15 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
+      - !AutomotiveDemo.Components.ColorUpdater,AutomotiveDemo
+        Id: 17a6dc78-de43-473e-b9ab-76b873bbb582
+        IsEnabled: true
+        TargetColor:
+          A: 255
+          B: 255
+          G: 255
+          R: 255
+        TargetMaterial: 95122746-840b-40a3-91ae-d03d19274e30
     Children:
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
         Name: MetalDkGlossy
@@ -914,7 +837,7 @@ Items:
         Id: 2c220386-cb89-4fd8-b84b-9e72e60cff59
     Id: 1904bbef-5a49-47dd-be05-4ab9b139af8f
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
-    Name: plane
+    Name: floor
     Tag: null
     IsEnabled: true
     IsStatic: false
@@ -965,4 +888,117 @@ Items:
         RenderFlags: CastShadows
     Children: []
     Id: d48cf2d8-b78f-4fdb-8c39-88aee3c84895
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: cameraRoot
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 51a0eb79-445f-45a8-bb3f-9ae78f985ad2
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.341694504
+          X: -0.0149187148
+          Y: -0.938798308
+          Z: -0.0409888141
+        LocalPosition:
+          X: 0.0
+          Y: 1.0
+          Z: -4.2418975E-09
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !AutomotiveDemo.Components.MouseOrbitBehavior,AutomotiveDemo
+        Id: d7b4a007-b323-42bc-ac1c-4514f96243bc
+        IsEnabled: true
+        MaxElevationAngle: 0.5
+        MaxZoom: 1.20000005
+        MinElevationAngle: 0.0500000007
+        MinZoom: 20.0
+        OrbitFactor: 0.00249999994
+        OrbitSmooth: 50.0
+        UpdateOrder: 0.5
+        ZoomFactor: 0.5
+        ZoomSmooth: 100.0
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: Camera
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 27bf9a6c-d395-45d3-9769-34e0d0d59644
+            IsEnabled: true
+            LocalOrientation:
+              W: -0.99999994
+              X: 9.31322575E-10
+              Y: 5.96046448E-08
+              Z: 3.7252903E-09
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 5.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
+            Id: 947d9c4e-4d8f-4a45-a97d-5b326789dd30
+            Aperture: 1.0
+            AspectRatio: 1.64379084
+            AutoDepthBounds: true
+            AutoExposureEnabled: true
+            CameraOrder: 0.0
+            ClearDepth: 1.0
+            ClearFlags: All
+            ClearStencil: 0
+            Compensation: 0.0
+            DepthRange:
+              MaxDepth: 1.0
+              MinDepth: 0.0
+            DisplayTag: null
+            DisplayTagDirty: false
+            Exposure: 1.0861553
+            FarPlane: 50.0
+            FieldOfView: 0.785398185
+            FieldOfViewAxis: Vertical
+            FocalDistance: 1.0
+            FocalLength: 50.0
+            FrustumCullingEnabled: true
+            HDREnabled: true
+            IsEnabled: true
+            LayerMaskDefaultValue: true
+            LinearBackgroundColor:
+              A: 1.0
+              B: 0.851251662
+              G: 0.306634784
+              R: 0.12752977
+            LogLuminanceRange: 12.0
+            MinLogLuminance: -10.0
+            NearPlane: 0.100000001
+            ScreenViewport:
+              Height: 306.0
+              MaxDepth: 1.0
+              MinDepth: 0.0
+              Width: 503.0
+              X: 0.0
+              Y: 0.0
+            Sensitivity: 100.0
+            SensorSize:
+              X: 36.0
+              Y: 24.0
+            ShutterSpeed: 1.20000005
+            TAU: 1.10000002
+            TagFilter: null
+            UpVector:
+              X: 0.0
+              Y: 1.0
+              Z: 0.0
+            UsePhysicalParameters: false
+        Children: []
+        Id: 15a32dda-9878-4fa5-873b-d9cf3c5dde63
+    Id: 5c183776-e0bc-4698-ad83-f4f198b722e9
 Managers: []
