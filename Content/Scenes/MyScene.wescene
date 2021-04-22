@@ -24,7 +24,7 @@ Items:
           Z: 1.0
       - !WaveEngine.Components.Graphics3D.EnvironmentComponent,WaveEngine.Framework
         Id: 94fb114a-c4d8-4674-bd4d-409893d8ab53
-        IntensityMultiplier: 0.75
+        IntensityMultiplier: 0.5
         IsEnabled: true
         ReflectionProbe: cb4c9738-03a0-494f-a839-20a22581fb59
       - !WaveEngine.Components.Graphics3D.ShadowMapComponent,WaveEngine.Framework
@@ -282,14 +282,14 @@ Items:
         Id: d7b4a007-b323-42bc-ac1c-4514f96243bc
         IsEnabled: true
         MaxElevationAngle: 0.5
-        MaxZoom: 0.100000001
+        MaxZoom: 2.5
         MinElevationAngle: 0.0500000007
-        MinZoom: 0.100000001
+        MinZoom: 10.0
         OrbitFactor: 0.00249999994
         OrbitSmooth: 50.0
         UpdateOrder: 0.5
-        ZoomFactor: 0.0
-        ZoomSmooth: 0.0
+        ZoomFactor: 0.5
+        ZoomSmooth: 100.0
       - !AutomotiveDemo.Components.CameraVisibilityUpdater,AutomotiveDemo
         Id: 73b45454-ac8f-489c-b1be-78c42ef5233f
         IsEnabled: true
@@ -332,8 +332,8 @@ Items:
               MaxDepth: 1.0
               MinDepth: 0.0
             DisplayTag: null
-            DisplayTagDirty: false
-            Exposure: 1.25132132
+            DisplayTagDirty: true
+            Exposure: 0.969635427
             FarPlane: 50.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
@@ -423,9 +423,9 @@ Items:
             IsEnabled: true
             LocalOrientation:
               W: 1.0
-              X: 2.22044526E-16
-              Y: -5.96046377E-08
-              Z: -3.72528941E-09
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
             LocalPosition:
               X: 0.0
               Y: 0.0
@@ -449,8 +449,8 @@ Items:
               MaxDepth: 1.0
               MinDepth: 0.0
             DisplayTag: null
-            DisplayTagDirty: false
-            Exposure: 1.23162806
+            DisplayTagDirty: true
+            Exposure: 1.33734417
             FarPlane: 50.0
             FieldOfView: 1.22173047
             FieldOfViewAxis: Vertical
@@ -499,9 +499,9 @@ Items:
                 IsEnabled: true
                 LocalOrientation:
                   W: 1.0
-                  X: 1.86264537E-09
-                  Y: 6.9388939E-18
-                  Z: -1.29246986E-26
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
                 LocalPosition:
                   X: 0.0500000007
                   Y: 0.0
@@ -514,8 +514,8 @@ Items:
                 Id: 59f3dae3-f8f4-4efe-a9a9-3bef80a3ae4c
                 Color:
                   A: 255
-                  B: 223
-                  G: 236
+                  B: 205
+                  G: 228
                   R: 255
                 ColorByTemperature: true
                 DebugMode: false
@@ -525,13 +525,13 @@ Items:
                 LightRange: 5.0
                 LinearColor:
                   A: 1.0
-                  B: 0.745847702
-                  G: 0.841092587
+                  B: 0.619521022
+                  G: 0.77996707
                   R: 1.0
                 LuminousPower: 20.0
                 ShadowBias: 0.00400000019
                 ShadowOpacity: 1.0
-                Temperature: 5500.0
+                Temperature: 5000.0
             Children: []
             Id: 6046342e-b854-4c38-bb80-bdda0600ec58
         Id: ff31b5c8-ffbb-4c97-b2cc-131050aa614d

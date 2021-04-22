@@ -12,9 +12,6 @@ namespace AutomotiveDemo.Components
         [BindService]
         InteractionService interaction = null;
 
-        ////[BindComponent]
-        ////private Camera3D camera;
-
         public bool IsInside;
 
         protected override bool OnAttached()
