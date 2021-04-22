@@ -18,12 +18,18 @@ namespace AutomotiveDemo.Components
 
         protected override bool OnAttached()
         {
-            var material = this.Managers.AssetSceneManager.Load<Material>(WaveContent.Models.car_Embedded.Materials.CarPaint);
+            var material = this.Managers.AssetSceneManager.Load<Material>(WaveContent.Materials.Car.CarPaint);
             this.targetStandardMaterial = new StandardMaterial(material);
 
             this.interaction.CarColorChanged += this.OnColorChanged;
 
             return base.OnAttached();
+        }
+
+        protected override void OnDetach()
+        {
+            base.OnDetach();
+            this.interaction.CarColorChanged -= this.OnColorChanged;
         }
 
         private void OnColorChanged(object sender, Color newColor)

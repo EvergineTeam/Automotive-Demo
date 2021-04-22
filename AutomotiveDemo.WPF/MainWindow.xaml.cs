@@ -1,6 +1,7 @@
 ﻿using AutomotiveDemo.Services;
 using System;
 using System.Windows;
+using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shapes;
@@ -87,6 +88,16 @@ namespace AutomotiveDemo.WPF
             var buttonColor = ((sender as Shape).Fill as SolidColorBrush).Color;
             var waveColor = new WaveEngine.Common.Graphics.Color(buttonColor.R, buttonColor.G, buttonColor.B, buttonColor.A);
             this.interactionService.CarColor = waveColor;
+        }
+
+        private void OnDoorOpened(object sender, MouseButtonEventArgs e)
+        {
+            this.interactionService.DoorOpened = !this.interactionService.DoorOpened;
+        }
+
+        private void OnCameraChanged(object sender, MouseButtonEventArgs e)
+        {
+            this.interactionService.InsideCamera = !this.interactionService.InsideCamera;
         }
     }
 }

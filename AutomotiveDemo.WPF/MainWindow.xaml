@@ -6,7 +6,26 @@
         mc:Ignorable="d"
         Title="Automotive Demo" Height="600" Width="1024">
     <Grid>
-        <ContentControl x:Name="WaveContainer"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        
+        <ContentControl Grid.ColumnSpan="2" x:Name="WaveContainer"/>
+
+
+        <Image Cursor="Hand" Margin="25" Grid.Column="1" Width="80" Height="80" HorizontalAlignment="Right" VerticalAlignment="Bottom" Stretch="Fill" Source="/carIcon.png" MouseUp="OnDoorOpened">
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="20" Direction="-90" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+
+        <Image Cursor="Hand" Margin="25,25,32,125" Grid.Column="1" Width="64" Height="64" HorizontalAlignment="Right" VerticalAlignment="Bottom" Stretch="Fill" Source="/steering-wheel.png" MouseUp="OnCameraChanged">
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="20" Direction="-90" ShadowDepth="5"/>
+            </Image.Effect>
+        </Image>
+
         <Grid VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20">
             <Border Background="Gray" CornerRadius="45" Opacity="0.3"/>
             <StackPanel Orientation="Horizontal" Margin="10">

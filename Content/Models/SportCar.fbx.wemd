@@ -1,0 +1,124 @@
+!WaveEngine.Assets.Exporters.ModelMetaFile,WaveEngine.Assets
+Id: 402d4e6e-e649-4f5d-8315-828a57d1984a
+Clips:
+  - AdditiveReferenceFrame: 0
+    AdditiveReferenceSourceTrack: null
+    EndTime: 1.0
+    Events: []
+    InPlaceMode: None
+    Name: Take 001
+    RootMotion: false
+    RootMotionNode: null
+    SourceTrack: null
+    StartTime: 0.0
+    Type: Default
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: 618e955d-ca57-45c2-888e-cbbbb9ab5338
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: fd34c0e5-d0fc-4689-a24e-a18b3cbe9478
+    AnimationTracks:
+      - AdditiveReferenceFrame: 0
+        AdditiveReferenceSourceTrack: null
+        EndTime: 1.0
+        Events: []
+        InPlaceMode: None
+        Name: Take 001
+        RootMotion: false
+        RootMotionNode: null
+        SourceTrack: null
+        StartTime: 0.0
+        Type: Default
+    EmbeddedResources: null
+    Materials:
+      - Item1: CarPaint
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Body_plastic
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intMetallDk
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intCarpet
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intFabricLt
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intPlasticGrey
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intFabricDk
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intSeatPatterns
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: SeatLeather
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intTexGlossyButtons
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intTexButtons
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intPlasticLtBump
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intPlasticRed
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Speakers
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intPlasticDkmatte
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Aluminum
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: HdLightsLed
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: ChromeLightsBump
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: MetalDkGlossy
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Chrome
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: LicPlate
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: HdLightsPlasticBump
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: intCarbon
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: Rubber
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: MetalLt
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: GlassTextured
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: GlassLights
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: RLightsChromeGlass
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: GlassRedLights
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: HdLightsLens
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelTireBMP
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelBrakeDisk
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelAluminumRim
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelGlossyMet
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelLogo
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: WheelMet
+        Item2: 00000000-0000-0000-0000-000000000000
+      - Item1: BrakeCaliper
+        Item2: 00000000-0000-0000-0000-000000000000
+    Nodes:
+      - RootNode
+      - CarBody
+      - CarBody.Wheels
+      - CarBody.LeftDoor
+      - CarBody.RightDoor
+SwapWindingOrder: false
