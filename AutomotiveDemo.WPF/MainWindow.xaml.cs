@@ -85,9 +85,15 @@ namespace AutomotiveDemo.WPF
 
         private void OnMouseUp(object sender, MouseButtonEventArgs e)
         {
-            var buttonColor = ((sender as Shape).Fill as SolidColorBrush).Color;
-            var waveColor = new WaveEngine.Common.Graphics.Color(buttonColor.R, buttonColor.G, buttonColor.B, buttonColor.A);
-            this.interactionService.CarColor = waveColor;
+            var indexObj = (sender as FrameworkElement).Tag?.ToString();
+
+            if(int.TryParse(indexObj, out var index))
+            {
+                this.interactionService.ColorIndex = index;
+            }
+            ////var buttonColor = ((sender as Shape).Fill as SolidColorBrush).Color;
+            ////var waveColor = new WaveEngine.Common.Graphics.Color(buttonColor.R, buttonColor.G, buttonColor.B, buttonColor.A);
+            ////this.interactionService.CarColor = waveColor;
         }
 
         private void OnDoorOpened(object sender, MouseButtonEventArgs e)

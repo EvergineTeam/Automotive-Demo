@@ -8,20 +8,20 @@ namespace AutomotiveDemo.Services
 {
     public class InteractionService : Service
     {
-        private Color carColor;
+        private int colorIndex;
         private bool doorOpened;
         private bool insideCamera;
 
-        public Color CarColor
+        public int ColorIndex
         {
             get
             {
-                return this.carColor;
+                return this.colorIndex;
             }
 
             set
             {
-                this.carColor = value;
+                this.colorIndex = value;
                 this.CarColorChanged?.Invoke(this, value);
             }
         }
@@ -35,7 +35,7 @@ namespace AutomotiveDemo.Services
 
             set
             {
-                this.doorOpened= value;
+                this.doorOpened = value;
                 this.DoorChanged?.Invoke(this, value);
             }
         }
@@ -54,7 +54,7 @@ namespace AutomotiveDemo.Services
             }
         }
 
-        public event EventHandler<Color> CarColorChanged;
+        public event EventHandler<int> CarColorChanged;
 
         public event EventHandler<bool> DoorChanged;
 

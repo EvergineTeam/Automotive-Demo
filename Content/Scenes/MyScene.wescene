@@ -181,7 +181,7 @@ Items:
         IsCullingEnabled: true
         IsEnabled: true
         IsGlobal: true
-        LayerOrder: 1
+        LayerOrder: 20
         OrderBias: 0
         RenderFlags: CastShadows
         ppGraph: dd593717-0922-4f58-9c85-c309658eff03
@@ -283,8 +283,8 @@ Items:
         IsEnabled: true
         MaxElevationAngle: 0.5
         MaxZoom: 2.5
-        MinElevationAngle: 0.0500000007
-        MinZoom: 10.0
+        MinElevationAngle: -0.100000001
+        MinZoom: 9.0
         OrbitFactor: 0.00249999994
         OrbitSmooth: 50.0
         UpdateOrder: 0.5
@@ -307,8 +307,8 @@ Items:
             LocalOrientation:
               W: 0.999048233
               X: -0.0436193869
-              Y: -5.97104091E-08
-              Z: -6.3216623E-09
+              Y: -5.28108335E-10
+              Z: -1.20956702E-08
             LocalPosition:
               X: 0.0
               Y: 0.0
@@ -320,7 +320,7 @@ Items:
           - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
             Id: 947d9c4e-4d8f-4a45-a97d-5b326789dd30
             Aperture: 1.0
-            AspectRatio: 1.64379084
+            AspectRatio: 1.64150941
             AutoDepthBounds: true
             AutoExposureEnabled: true
             CameraOrder: 0.0
@@ -332,12 +332,12 @@ Items:
               MaxDepth: 1.0
               MinDepth: 0.0
             DisplayTag: null
-            DisplayTagDirty: true
-            Exposure: 0.969635427
+            DisplayTagDirty: false
+            Exposure: 1.27076828
             FarPlane: 50.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
-            FocalDistance: 1.0
+            FocalDistance: 5.0
             FocalLength: 50.0
             FrustumCullingEnabled: true
             HDREnabled: true
@@ -352,10 +352,10 @@ Items:
             MinLogLuminance: -10.0
             NearPlane: 0.100000001
             ScreenViewport:
-              Height: 306.0
+              Height: 1007.0
               MaxDepth: 1.0
               MinDepth: 0.0
-              Width: 503.0
+              Width: 1653.0
               X: 0.0
               Y: 0.0
             Sensitivity: 100.0
@@ -450,7 +450,7 @@ Items:
               MinDepth: 0.0
             DisplayTag: null
             DisplayTagDirty: true
-            Exposure: 1.33734417
+            Exposure: 1.37365687
             FarPlane: 50.0
             FieldOfView: 1.22173047
             FieldOfViewAxis: Vertical
