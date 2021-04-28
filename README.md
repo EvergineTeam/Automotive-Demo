@@ -1,27 +1,17 @@
-# AutomotiveDemo
+# Automotive Demo
 
-## Introduction
+This demo shows how you can use Wave Engine in an automotive environment application. It uses a simple WPF user interface to control different parts of the car.
 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
-
-## Getting Started
-
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-
-1. Installation process
-2. Software dependencies
-3. Latest releases
-4. API references
+![alt Screenshot](https://github.com/WaveEngine/Automotive-Demo/blob/master/Screenshots/screenshots01.jpg)
+![alt Screenshot](https://github.com/WaveEngine/Automotive-Demo/blob/master/Screenshots/screenshots02.jpg)
+![alt Screenshot](https://github.com/WaveEngine/Automotive-Demo/blob/master/Screenshots/screenshots03.jpg)
 
 ## Build and Test
+Required Visual Studio 16.8 with .NET5 support
 
-TODO: Describe and show how to build your code and run the tests.
-
-## Contribute
-
-TODO: Explain how other users and developers can contribute to make your code better.
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops).
+### How to use
+ * **Left Click + Mouse**: Interact with the UI to change the car color, open the doors or view the car interior.
+ * **Right Click + Mouse**: Camera look.
 
 ----
 Powered by **[WaveEngine 3.1](http://www.waveengine.net)**
