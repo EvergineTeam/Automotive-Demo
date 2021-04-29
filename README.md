@@ -2,6 +2,8 @@
 
 This demo shows how you can use Wave Engine in an automotive environment application. It uses a simple WPF user interface to control different parts of the car.
 
+Video: https://www.youtube.com/watch?v=gGRYtsq2X_o
+
 ![alt Screenshot](https://github.com/WaveEngine/Automotive-Demo/blob/master/Screenshots/screenshots01.jpg)
 ![alt Screenshot](https://github.com/WaveEngine/Automotive-Demo/blob/master/Screenshots/screenshots02.jpg)
 ![alt Screenshot](https://github.com/WaveEngine/Automotive-Demo/blob/master/Screenshots/screenshots03.jpg)
