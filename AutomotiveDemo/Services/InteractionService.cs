@@ -10,7 +10,7 @@ namespace AutomotiveDemo.Services
     {
         private int colorIndex;
         private bool doorOpened;
-        private bool insideCamera;
+        private bool insideCamera = true;
 
         public int ColorIndex
         {
