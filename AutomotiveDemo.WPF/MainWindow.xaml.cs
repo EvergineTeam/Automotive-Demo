@@ -1,5 +1,6 @@
 ﻿using AutomotiveDemo.Services;
 using System;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
@@ -24,6 +25,8 @@ namespace AutomotiveDemo.WPF
         private Display display;
         private InteractionService interactionService;
 
+        private int currentScreen = 0;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -46,6 +49,18 @@ namespace AutomotiveDemo.WPF
             WaveContainer.Content = surface.NativeControl;
             surface.NativeControl.MouseDown += NativeControlMouseDown;
             graphicsPresenter.AddDisplay("DefaultDisplay", display);
+        }
+
+        protected override void OnKeyUp(KeyEventArgs e)
+        {
+            base.OnKeyUp(e);
+
+            if (e.Key == Key.F)
+            {
+                var toFullScreen = this.WindowState != WindowState.Maximized;
+                this.WindowState = toFullScreen ? WindowState.Maximized: WindowState.Normal;
+                this.WindowStyle = toFullScreen ? WindowStyle.None : WindowStyle.SingleBorderWindow;
+            }
         }
 
         private void NativeControlMouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
@@ -87,13 +102,10 @@ namespace AutomotiveDemo.WPF
         {
             var indexObj = (sender as FrameworkElement).Tag?.ToString();
 
-            if(int.TryParse(indexObj, out var index))
+            if (int.TryParse(indexObj, out var index))
             {
                 this.interactionService.ColorIndex = index;
             }
-            ////var buttonColor = ((sender as Shape).Fill as SolidColorBrush).Color;
-            ////var waveColor = new WaveEngine.Common.Graphics.Color(buttonColor.R, buttonColor.G, buttonColor.B, buttonColor.A);
-            ////this.interactionService.CarColor = waveColor;
         }
 
         private void OnDoorOpened(object sender, MouseButtonEventArgs e)

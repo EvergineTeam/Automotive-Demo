@@ -237,10 +237,7 @@ Items:
         InitialU: 0.0
         InitialV: 0.0
         IsEnabled: true
-        Normal:
-          X: 0.0
-          Y: 1.0
-          Z: 0.0
+        PlaneNormal: YPositive
         TwoSides: false
         UTile: 15.0
         UVHorizontalFlip: false
@@ -278,15 +275,16 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !AutomotiveDemo.Components.MouseOrbitBehavior,AutomotiveDemo
+      - !AutomotiveDemo.Components.OrbitBehavior,AutomotiveDemo
         Id: d7b4a007-b323-42bc-ac1c-4514f96243bc
         IsEnabled: true
         MaxElevationAngle: 0.5
         MaxZoom: 2.5
         MinElevationAngle: -0.100000001
         MinZoom: 9.0
-        OrbitFactor: 0.00249999994
-        OrbitSmooth: 50.0
+        OrbitKeyboardFactor: 0.00999999978
+        OrbitMouseFactor: 0.00249999994
+        OrbitSmooth: 100.0
         UpdateOrder: 0.5
         ZoomFactor: 0.5
         ZoomSmooth: 100.0
@@ -320,7 +318,7 @@ Items:
           - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
             Id: 947d9c4e-4d8f-4a45-a97d-5b326789dd30
             Aperture: 1.0
-            AspectRatio: 1.64150941
+            AspectRatio: 1.64705884
             AutoDepthBounds: true
             AutoExposureEnabled: true
             CameraOrder: 0.0
@@ -332,8 +330,8 @@ Items:
               MaxDepth: 1.0
               MinDepth: 0.0
             DisplayTag: null
-            DisplayTagDirty: false
-            Exposure: 1.27076828
+            DisplayTagDirty: true
+            Exposure: 1.30216873
             FarPlane: 50.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
@@ -352,10 +350,10 @@ Items:
             MinLogLuminance: -10.0
             NearPlane: 0.100000001
             ScreenViewport:
-              Height: 1007.0
+              Height: 306.0
               MaxDepth: 1.0
               MinDepth: 0.0
-              Width: 1653.0
+              Width: 504.0
               X: 0.0
               Y: 0.0
             Sensitivity: 100.0
@@ -395,14 +393,15 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !AutomotiveDemo.Components.MouseOrbitBehavior,AutomotiveDemo
+      - !AutomotiveDemo.Components.OrbitBehavior,AutomotiveDemo
         Id: 0d856664-2858-4df5-88bc-c6ec19e5cffd
         IsEnabled: true
         MaxElevationAngle: 1.39999998
         MaxZoom: -0.0500000007
         MinElevationAngle: -1.39999998
         MinZoom: -0.0500000007
-        OrbitFactor: 0.00249999994
+        OrbitKeyboardFactor: -0.00999999978
+        OrbitMouseFactor: 0.00249999994
         OrbitSmooth: 50.0
         UpdateOrder: 0.5
         ZoomFactor: 0.5

@@ -29,13 +29,6 @@ namespace AutomotiveDemo.Components
 
         private void OnDoorChanged(object sender, bool e)
         {
-            ////var startAnimation = e ? 0 : this.carAnimation.Clip.Duration;
-            ////var endTime = e ? this.carAnimation.Clip.Duration : 0;
-            ////var rate = e ? 1 : -1;
-
-            ////this.carAnimation.PlayAnimation(name: "Take 001", loop: false, startTime: startAnimation, endTime: endTime, playbackRate: rate
-            ////    );
-
             var startTime = e ? 0 : 0.5f;
             var endTime = e ? 0.5f : 1;
 
