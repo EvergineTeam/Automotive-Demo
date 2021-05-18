@@ -1,3 +1,4 @@
+using AutomotiveDemo.Services;
 using WaveEngine.Framework;
 using WaveEngine.Framework.Services;
 using WaveEngine.Framework.Threading;
@@ -19,6 +20,7 @@ namespace AutomotiveDemo
             this.Container.RegisterType<AssetsService>();
             this.Container.RegisterType<ForegroundTaskSchedulerService>();            
             this.Container.RegisterType<WorkActionScheduler>();
+            this.Container.RegisterType<InteractionService>();
         }
 
         public override void Initialize()
