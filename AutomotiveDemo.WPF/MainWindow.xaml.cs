@@ -37,6 +37,8 @@ namespace AutomotiveDemo.WPF
         {
             var application = ((App)Application.Current).WaveApplication;
 
+            this.interactionService = application.Container.Resolve<InteractionService>();
+
             var graphicsPresenter = application.Container.Resolve<GraphicsPresenter>();
             dX11GraphicsContext = application.Container.Resolve<DX11GraphicsContext>();
 
