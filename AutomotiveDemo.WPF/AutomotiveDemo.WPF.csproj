@@ -11,13 +11,12 @@
     <None Remove="steering-wheel.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="WaveEngine.DirectX11" Version="3.2.0.7787-preview" />
-    <PackageReference Include="WaveEngine.HLSLEverywhere" Version="3.2.0.7787-preview" />
-    <PackageReference Include="WaveEngine.XAudio2" Version="3.2.0.7787-preview" />
-    <PackageReference Include="WaveEngine.WPF" Version="3.2.0.7787-preview" />
-    <PackageReference Include="WaveEngine.Targets" Version="3.2.0.7787-preview" />
-    <PackageReference Include="WaveEngine.Targets.Windows" Version="3.2.0.7787-preview" />
-    <PackageReference Include="SharpDX.Direct3D9" Version="4.2.0" PrivateAssets="All" />
+	<PackageReference Include="WaveEngine.WPF" Version="3.3.0.8473-nightly" />
+    <PackageReference Include="WaveEngine.DirectX11" Version="3.3.0.8473-nightly" />
+    <PackageReference Include="WaveEngine.HLSLEverywhere" Version="3.3.0.8473-nightly" />
+    <PackageReference Include="WaveEngine.XAudio2" Version="3.3.0.8473-nightly" />
+    <PackageReference Include="WaveEngine.Targets" Version="3.3.0.8473-nightly" />
+    <PackageReference Include="WaveEngine.Targets.Windows" Version="3.3.0.8473-nightly" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutomotiveDemo\AutomotiveDemo.csproj" />
