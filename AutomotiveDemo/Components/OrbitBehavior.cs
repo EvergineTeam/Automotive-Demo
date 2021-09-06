@@ -12,7 +12,7 @@ using WaveEngine.Mathematics;
 
 namespace AutomotiveDemo.Components
 {
-    public class MouseOrbitBehavior : Behavior
+    public class OrbitBehavior : Behavior
     {
         [BindComponent(false)]
         public Transform3D Transform = null;
@@ -20,7 +20,8 @@ namespace AutomotiveDemo.Components
         [BindComponent(isExactType: false, source: BindComponentSource.ChildrenSkipOwner)]
         private Transform3D targetTransform = null;
 
-        protected MouseDispatcher mouseDispatcher;
+        private MouseDispatcher mouseDispatcher;
+        private KeyboardDispatcher keyboardDispatcher;
 
         private float theta;
         private float lambda;
@@ -29,7 +30,8 @@ namespace AutomotiveDemo.Components
         private Quaternion objectOrbitSmoothDampDeriv;
         private float zoomVelocity;
 
-        public float OrbitFactor = 0.0025f;
+        public float OrbitMouseFactor = 0.0025f;
+        public float OrbitKeyboardFactor = 0.01f;
         public float ZoomFactor = 0.5f;
         public float MaxZoom = 0.5f;
         public float MinZoom = 5f;
@@ -48,13 +50,6 @@ namespace AutomotiveDemo.Components
             return base.OnAttached();
         }
 
-        protected override void Start()
-        {
-            base.Start();
-
-
-        }
-
         /// <inheritdoc/>
         protected override void Update(TimeSpan gameTime)
         {
@@ -65,9 +60,10 @@ namespace AutomotiveDemo.Components
                 if (display != null)
                 {
                     this.mouseDispatcher = display.MouseDispatcher;
+                    this.keyboardDispatcher = display.KeyboardDispatcher;
                 }
 
-                if (this.mouseDispatcher == null)
+                if ((this.mouseDispatcher == null) || (this.keyboardDispatcher == null))
                 {
                     return;
                 }
@@ -75,9 +71,31 @@ namespace AutomotiveDemo.Components
 
             if (this.mouseDispatcher.IsButtonDown(MouseButtons.Left) || this.mouseDispatcher.IsButtonDown(MouseButtons.Right))
             {
-                var deltaRotation = this.mouseDispatcher.PositionDelta.ToVector2() * this.OrbitFactor;
+                var deltaRotation = this.mouseDispatcher.PositionDelta.ToVector2() * this.OrbitMouseFactor;
                 this.theta += deltaRotation.X;
                 this.lambda += deltaRotation.Y;
+                this.lambda = Math.Max(this.MinElevationAngle, Math.Min(this.MaxElevationAngle, this.lambda));
+            }
+
+            if (this.keyboardDispatcher.IsKeyDown(Keys.A) || this.keyboardDispatcher.IsKeyDown(Keys.Left))
+            {
+                this.theta += this.OrbitKeyboardFactor;
+            }
+
+            if (this.keyboardDispatcher.IsKeyDown(Keys.D) || this.keyboardDispatcher.IsKeyDown(Keys.Right))
+            {
+                this.theta -= this.OrbitKeyboardFactor;
+            }
+
+            if (this.keyboardDispatcher.IsKeyDown(Keys.W) || this.keyboardDispatcher.IsKeyDown(Keys.Up))
+            {
+                this.lambda += this.OrbitKeyboardFactor;
+                this.lambda = Math.Max(this.MinElevationAngle, Math.Min(this.MaxElevationAngle, this.lambda));
+            }
+
+            if (this.keyboardDispatcher.IsKeyDown(Keys.S) || this.keyboardDispatcher.IsKeyDown(Keys.Down))
+            {
+                this.lambda -= this.OrbitKeyboardFactor;
                 this.lambda = Math.Max(this.MinElevationAngle, Math.Min(this.MaxElevationAngle, this.lambda));
             }
 
