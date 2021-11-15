@@ -18,8 +18,8 @@ namespace AutomotiveDemo.Components
 
         protected override bool OnAttached()
         {
-            //var material = this.Managers.AssetSceneManager.Load<Material>(EvergineContent.Materials.Car.CarPaint);
-            //this.targetStandardMaterial = new StandardMaterial(material);
+            var material = this.Managers.AssetSceneManager.Load<Material>(EvergineContent.Materials.Car.CarPaint);
+            this.targetStandardMaterial = new StandardMaterial(material);
 
             this.interaction.CarColorChanged += this.OnColorChanged;
 

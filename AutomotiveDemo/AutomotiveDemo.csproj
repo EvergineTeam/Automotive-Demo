@@ -2,9 +2,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GenerateWaveContent>True</GenerateWaveContent>
-    <GenerateWaveAssets>False</GenerateWaveAssets>
-    <GenerateWaveScenesCode>True</GenerateWaveScenesCode>
+	<GenerateEvergineContent>True</GenerateEvergineContent>
+	<GenerateEvergineAssets>False</GenerateEvergineAssets>
+	<GenerateEvergineScenesCode>True</GenerateEvergineScenesCode>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Evergine.Common" Version="2021.11.12.3-preview" />

@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
@@ -11,12 +11,12 @@
     <None Remove="steering-wheel.png" />
   </ItemGroup>
   <ItemGroup>
-	<PackageReference Include="WaveEngine.WPF" Version="3.3.0.8524-preview" />
-    <PackageReference Include="WaveEngine.DirectX11" Version="3.3.0.8524-preview" />
-    <PackageReference Include="WaveEngine.HLSLEverywhere" Version="3.3.0.8524-preview" />
-    <PackageReference Include="WaveEngine.XAudio2" Version="3.3.0.8524-preview" />
-    <PackageReference Include="WaveEngine.Targets" Version="3.3.0.8524-preview" />
-    <PackageReference Include="WaveEngine.Targets.Windows" Version="3.3.0.8524-preview" />
+	<PackageReference Include="Evergine.WPF" Version="2021.11.12.3-preview" />
+    <PackageReference Include="Evergine.DirectX11" Version="2021.11.12.3-preview" />
+    <PackageReference Include="Evergine.HLSLEverywhere" Version="2021.11.12.3-preview" />
+    <PackageReference Include="Evergine.XAudio2" Version="2021.11.12.3-preview" />
+    <PackageReference Include="Evergine.Targets" Version="2021.11.12.3-preview" />
+    <PackageReference Include="Evergine.Targets.Windows" Version="2021.11.12.3-preview" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutomotiveDemo\AutomotiveDemo.csproj" />

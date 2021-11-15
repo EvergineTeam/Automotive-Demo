@@ -6,11 +6,11 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Shapes;
-using WaveEngine.Common.Graphics;
-using WaveEngine.DirectX11;
-using WaveEngine.Framework.Graphics;
-using WaveEngine.Framework.Services;
-using WaveEngine.WPF;
+using Evergine.Common.Graphics;
+using Evergine.DirectX11;
+using Evergine.Framework.Graphics;
+using Evergine.Framework.Services;
+using Evergine.WPF;
 using Window = System.Windows.Window;
 
 namespace AutomotiveDemo.WPF
@@ -30,10 +30,10 @@ namespace AutomotiveDemo.WPF
         public MainWindow()
         {
             InitializeComponent();
-            LoadWaveEngineControl();
+            LoadEvergineControl();
         }
 
-        private void LoadWaveEngineControl()
+        private void LoadEvergineControl()
         {
             var application = ((App)Application.Current).WaveApplication;
 
@@ -77,7 +77,7 @@ namespace AutomotiveDemo.WPF
             var rTDepthTargetDescription = new TextureDescription()
             {
                 Type = TextureType.Texture2D,
-                Format = WaveEngine.Common.Graphics.PixelFormat.D24_UNorm_S8_UInt,
+                Format = Evergine.Common.Graphics.PixelFormat.D24_UNorm_S8_UInt,
                 Width = texture.Description.Width,
                 Height = texture.Description.Height,
                 Depth = 1,

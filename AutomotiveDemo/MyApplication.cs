@@ -32,9 +32,9 @@ namespace AutomotiveDemo
             var assetsService = this.Container.Resolve<AssetsService>();
 
             // Navigate to scene
-            //var scene = assetsService.Load<MyScene>(EvergineContent.Scenes.MyScene_wescene);
-            //ScreenContext screenContext = new ScreenContext(scene);
-            //screenContextManager.To(screenContext);
+            var scene = assetsService.Load<MyScene>(EvergineContent.Scenes.MyScene_wescene);
+            ScreenContext screenContext = new ScreenContext(scene);
+            screenContextManager.To(screenContext);
         }
     }
 }
