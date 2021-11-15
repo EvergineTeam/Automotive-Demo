@@ -1,4 +1,4 @@
-!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+!Evergine.Assets.Exporters.MaterialMetaFile,Evergine.Assets
 Id: b48d6cf8-ccdb-4dad-8f64-96262ee03900
 DefaultProfile:
   ExcludeAsset: false
@@ -19,16 +19,16 @@ MaterialInfo:
   OrderBias: 0
   Parameters:
     - Name: World
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
     - Name: ForwardLightMask
-      Type: WaveEngine.Mathematics.UInt2,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.UInt2,Evergine.Mathematics
       ValueByteArray: AwAAAAAAAAA=
     - Name: ViewProj
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: sXWrPyVVNT+VYUU/h1xFP2inF7PWZxBAGCG2vm4ctr7DMfo/Yon4vjpEB7/DQAe/v/qHNAP2QDUg7ItAvhuPQA==
     - Name: EyePosition
-      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
       ValueByteArray: IqhcwDibyz+pNxdA
     - Name: EyeCount
       Type: System.Int32
@@ -46,13 +46,13 @@ MaterialInfo:
       Type: System.Single
       ValueByteArray: AACAPw==
     - Name: MultiviewViewProj
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: sXWrPyVVNT+VYUU/h1xFP2inF7PWZxBAGCG2vm4ctr7DMfo/Yon4vjpEB7/DQAe/v/qHNAP2QDUg7ItAvhuPQA==
     - Name: MultiviewEyePosition
-      Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector4,Evergine.Mathematics
       ValueByteArray: IqhcwDibyz+pNxdAAACAPw==
     - Name: BaseColor
-      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
       ValueByteArray: oaAgPqGgID6hoCA+
     - Name: Alpha
       Type: System.Single
@@ -76,13 +76,13 @@ MaterialInfo:
       Type: System.Single
       ValueByteArray: AAAAAA==
     - Name: TextureOffset0
-      Type: WaveEngine.Mathematics.Vector2,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector2,Evergine.Mathematics
       ValueByteArray: AAAAAAAAAAA=
     - Name: TextureOffset1
-      Type: WaveEngine.Mathematics.Vector2,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector2,Evergine.Mathematics
       ValueByteArray: AAAAAAAAAAA=
     - Name: Emissive
-      Type: WaveEngine.Mathematics.Vector3,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
       ValueByteArray: AACAPwAAgD8AAIA/
     - Name: EmissiveIntensity
       Type: System.Single
@@ -91,10 +91,10 @@ MaterialInfo:
       Type: System.UInt32
       ValueByteArray: AAAAAA==
     - Name: IrradianceSH
-      Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector4,Evergine.Mathematics
       ValueByteArray: QAAAACUAAABaAAADAGAQAA==
     - Name: ShadowViewProjectionArray
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: XZu2QHqeDL/9jTLAAAAAAAAAAAC9xP5A/aPIvgAAAADwarPAWh4Pv326NcAAAAAAcBVVwXVw1sCIrDjBAACAPw==
   Samplers:
     - ID: 00000000-0000-0000-0000-000000000000

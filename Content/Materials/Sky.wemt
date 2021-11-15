@@ -1,4 +1,4 @@
-!WaveEngine.Assets.Exporters.MaterialMetaFile,WaveEngine.Assets
+!Evergine.Assets.Exporters.MaterialMetaFile,Evergine.Assets
 Id: c8129321-80d7-4e93-a241-eeb21ea9adc1
 DefaultProfile:
   ExcludeAsset: false
@@ -14,13 +14,13 @@ MaterialInfo:
   OrderBias: 0
   Parameters:
     - Name: World
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
     - Name: CameraPosition
-      Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector4,Evergine.Mathematics
       ValueByteArray: EBErQBgQa76m/2TAAAAAAA==
     - Name: ViewProj
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: CD3zv83ilz2fBRm/tAEZv47OlzJVThpAeURSPRc/Uj0/tLW/hFLLvdPXTD+U0kw/SxD/sCm65zQf7ItAvRuPQA==
     - Name: Exposure
       Type: System.Single
@@ -32,10 +32,10 @@ MaterialInfo:
       Type: System.Single
       ValueByteArray: AACAPw==
     - Name: MultiviewViewProj
-      Type: WaveEngine.Mathematics.Matrix4x4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: CD3zv83ilz2fBRm/tAEZv47OlzJVThpAeURSPRc/Uj0/tLW/hFLLvdPXTD+U0kw/SxD/sCm65zQf7ItAvRuPQA==
     - Name: MultiviewPosition
-      Type: WaveEngine.Mathematics.Vector4,WaveEngine.Mathematics
+      Type: Evergine.Mathematics.Vector4,Evergine.Mathematics
       ValueByteArray: EBErQBgQa76m/2TAAACAPw==
     - Name: Intensity
       Type: System.Single

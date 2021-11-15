@@ -2,10 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using WaveEngine.Common.Graphics;
-using WaveEngine.Framework;
-using WaveEngine.Framework.Graphics;
-using WaveEngine.Framework.Graphics.Materials;
+using Evergine.Common.Graphics;
+using Evergine.Framework;
+using Evergine.Framework.Graphics;
+using Evergine.Framework.Graphics.Materials;
 
 namespace AutomotiveDemo.Components
 {
@@ -18,8 +18,8 @@ namespace AutomotiveDemo.Components
 
         protected override bool OnAttached()
         {
-            var material = this.Managers.AssetSceneManager.Load<Material>(WaveContent.Materials.Car.CarPaint);
-            this.targetStandardMaterial = new StandardMaterial(material);
+            //var material = this.Managers.AssetSceneManager.Load<Material>(EvergineContent.Materials.Car.CarPaint);
+            //this.targetStandardMaterial = new StandardMaterial(material);
 
             this.interaction.CarColorChanged += this.OnColorChanged;
 

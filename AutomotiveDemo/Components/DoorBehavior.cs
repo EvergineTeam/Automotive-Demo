@@ -2,8 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using WaveEngine.Components.Animation;
-using WaveEngine.Framework;
+using Evergine.Components.Animation;
+using Evergine.Framework;
 
 namespace AutomotiveDemo.Components
 {

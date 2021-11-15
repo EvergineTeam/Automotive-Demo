@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using WaveEngine.Common.Graphics;
-using WaveEngine.Framework.Services;
+using Evergine.Common.Graphics;
+using Evergine.Framework.Services;
 
 namespace AutomotiveDemo.Services
 {

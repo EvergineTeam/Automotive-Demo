@@ -1,6 +1,7 @@
 Packages:
-  - Id: WaveEngine.Core
-    Version: 3.3.0.8524-preview
+  - Id: Evergine.Core
+    LocalPath: null
+    Version: 2021.11.12.3-preview
 Profiles:
   - AdditionalEffectTechniqueCombinations: SHADOW_SUPPORTED
     AlphaCompressionFormat: BC3_UNorm
