@@ -1,11 +1,7 @@
 ﻿using AutomotiveDemo.Services;
 using System;
-using System.Linq;
 using System.Windows;
-using System.Windows.Controls.Primitives;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Shapes;
 using Evergine.Common.Graphics;
 using Evergine.DirectX11;
 using Evergine.Framework.Graphics;
@@ -24,8 +20,6 @@ namespace AutomotiveDemo.WPF
         private WPFSurface surface;
         private Display display;
         private InteractionService interactionService;
-
-        private int currentScreen = 0;
 
         public MainWindow()
         {
