@@ -11,7 +11,7 @@ namespace AutomotiveDemo.Components
 {
     public class ColorUpdater : Component
     {
-        [BindService]
+        [BindService(isRequired: false)]
         InteractionService interaction = null;
 
         private StandardMaterial targetStandardMaterial;
@@ -21,7 +21,10 @@ namespace AutomotiveDemo.Components
             var material = this.Managers.AssetSceneManager.Load<Material>(EvergineContent.Materials.Car.CarPaint);
             this.targetStandardMaterial = new StandardMaterial(material);
 
-            this.interaction.CarColorChanged += this.OnColorChanged;
+            if (!Application.Current.IsEditor)
+            {
+                this.interaction.CarColorChanged += this.OnColorChanged;
+            }
 
             return base.OnAttached();
         }
@@ -29,7 +32,11 @@ namespace AutomotiveDemo.Components
         protected override void OnDetach()
         {
             base.OnDetach();
-            this.interaction.CarColorChanged -= this.OnColorChanged;
+
+            if (!Application.Current.IsEditor)
+            {
+                this.interaction.CarColorChanged -= this.OnColorChanged;
+            }
         }
 
         private void OnColorChanged(object sender, int colorIndex)

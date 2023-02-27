@@ -9,7 +9,7 @@ namespace AutomotiveDemo.Components
 {
     public class DoorBehavior : Component
     {
-        [BindService]
+        [BindService(isRequired: false)]
         InteractionService interaction = null;
 
         [BindComponent]
@@ -17,14 +17,22 @@ namespace AutomotiveDemo.Components
 
         protected override bool OnAttached()
         {
-            this.interaction.DoorChanged += this.OnDoorChanged;
+            if (!Application.Current.IsEditor)
+            {
+                this.interaction.DoorChanged += this.OnDoorChanged;
+            }
+
             return base.OnAttached();
         }
 
         protected override void OnDetach()
         {
             base.OnDetach();
-            this.interaction.DoorChanged -= this.OnDoorChanged;
+
+            if (!Application.Current.IsEditor)
+            {
+                this.interaction.DoorChanged -= this.OnDoorChanged;
+            }
         }
 
         private void OnDoorChanged(object sender, bool e)

@@ -9,7 +9,7 @@ namespace AutomotiveDemo.Components
 {
     public class CameraVisibilityUpdater : Component
     {
-        [BindService]
+        [BindService(isRequired: false)]
         InteractionService interaction = null;
 
         public bool IsInside;
@@ -29,7 +29,10 @@ namespace AutomotiveDemo.Components
         {
             base.OnDetach();
 
-            this.interaction.CameraChanged -= OnCameraChanged;
+            if (!Application.Current.IsEditor)
+            {
+                this.interaction.CameraChanged -= OnCameraChanged;
+            }
         }
 
         private void RefreshCameraVisibility()
