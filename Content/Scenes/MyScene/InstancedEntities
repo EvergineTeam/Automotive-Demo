@@ -294,7 +294,7 @@ Items:
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.30216873
+            Exposure: 1.2694447
             FarPlane: 50.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
@@ -397,7 +397,7 @@ Items:
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.37365687
+            Exposure: 1.70273066
             FarPlane: 50.0
             FieldOfView: 1.22173047
             FieldOfViewAxis: Vertical
@@ -720,9 +720,9 @@ Items:
               Y: 0.0338535383
               Z: -0.247353762
             LocalPosition:
-              X: -0.945096016
-              Y: -6.16812325
-              Z: -4.38343954
+              X: -0.752796173
+              Y: -6.42727089
+              Z: -4.41426945
             LocalScale:
               X: 1.0
               Y: 1.0
@@ -924,9 +924,9 @@ Items:
               Y: 0.0
               Z: 0.0
             LocalPosition:
-              X: -17.6420517
-              Y: -0.633956909
-              Z: -1.57180381
+              X: -17.6446495
+              Y: -0.626375318
+              Z: -1.56269741
             LocalScale:
               X: 1.0
               Y: 1.0
