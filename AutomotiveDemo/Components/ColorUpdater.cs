@@ -1,7 +1,4 @@
 ﻿using AutomotiveDemo.Services;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Evergine.Common.Graphics;
 using Evergine.Framework;
 using Evergine.Framework.Graphics;
