@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
@@ -10,12 +10,12 @@
     <None Remove="steering-wheel.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Evergine.WPF" Version="2023.9.28.510" />
-    <PackageReference Include="Evergine.DirectX11" Version="2023.9.28.510" />
-    <PackageReference Include="Evergine.HLSLEverywhere" Version="2023.9.28.510" />
-    <PackageReference Include="Evergine.XAudio2" Version="2023.9.28.510" />
-    <PackageReference Include="Evergine.Targets" Version="2023.9.28.510" />
-    <PackageReference Include="Evergine.Targets.Windows" Version="2023.9.28.510" />
+    <PackageReference Include="Evergine.WPF" Version="2024.10.21.1431-nightly" />
+    <PackageReference Include="Evergine.DirectX11" Version="2024.10.21.1431-nightly" />
+    <PackageReference Include="Evergine.HLSLEverywhere" Version="2024.10.21.1431-nightly" />
+    <PackageReference Include="Evergine.XAudio2" Version="2024.10.21.1431-nightly" />
+    <PackageReference Include="Evergine.Targets" Version="2024.10.21.1431-nightly" />
+    <PackageReference Include="Evergine.Targets.Windows" Version="2024.10.21.1431-nightly" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AutomotiveDemo\AutomotiveDemo.csproj" />

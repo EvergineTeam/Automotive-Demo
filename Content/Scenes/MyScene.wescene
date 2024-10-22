@@ -102,7 +102,7 @@ Items:
               B: 0.0669290274
               G: 0.358414203
               R: 1.0
-            ShadowBias: 0.0109999999
+            ShadowBias: 0.00999999978
             ShadowDistance: 8.0
             ShadowOpacity: 1.0
             SplitDistance:
@@ -294,7 +294,7 @@ Items:
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.2694447
+            Exposure: 1.40737057
             FarPlane: 50.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
@@ -397,7 +397,7 @@ Items:
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.70273066
+            Exposure: 1.40655267
             FarPlane: 50.0
             FieldOfView: 1.22173047
             FieldOfViewAxis: Vertical
@@ -697,6 +697,7 @@ Items:
         Model: 402d4e6e-e649-4f5d-8315-828a57d1984a
         PlayAutomatically: false
         PlaybackRate: 1.0
+        SmoothTransitions: false
         UpdateOrder: 0.5
       - !AutomotiveDemo.Components.ColorUpdater,AutomotiveDemo
         Id: 502fce3a-2605-4d7e-864e-619a564e6698
