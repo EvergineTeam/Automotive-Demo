@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Evergine.Common.Graphics;
-using Evergine.Framework.Services;
+﻿using Evergine.Framework.Services;
+using System;
 
 namespace AutomotiveDemo.Services
 {

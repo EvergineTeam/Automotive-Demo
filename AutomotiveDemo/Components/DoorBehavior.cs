@@ -1,7 +1,4 @@
 ﻿using AutomotiveDemo.Services;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Evergine.Components.Animation;
 using Evergine.Framework;
 
@@ -13,7 +10,7 @@ namespace AutomotiveDemo.Components
         InteractionService interaction = null;
 
         [BindComponent]
-        Animation3D carAnimation;
+        Animation3D carAnimation = null;
 
         protected override bool OnAttached()
         {
