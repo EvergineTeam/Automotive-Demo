@@ -6,7 +6,7 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: 05632849-98e3-4561-a20c-7b9413018fbe
+  Id: 69728e5a-f2a3-4d1e-9132-36fd568829c0
   ActiveDirectives:
     - AO
     - DIFF
@@ -22,18 +22,30 @@ MaterialInfo:
     - Name: World
       Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
+    - Name: PreWorld
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
     - Name: ForwardLightMask
       Type: Evergine.Mathematics.UInt2,Evergine.Mathematics
       ValueByteArray: AwAAAAAAAAA=
     - Name: ViewProj
       Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: mk4SQBmGhD4/H3o+2Bh6Po7OlzJ5eg1A7tHNvqnMzb5z9yE//Gtvv3XwYb+s6mG/uRAXspPSbjUf7ItAvRuPQA==
+    - Name: PreViewProj
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
     - Name: EyePosition
       Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
       ValueByteArray: +86Lvz0X5j8klXxA
     - Name: EyeCount
       Type: System.Int32
       ValueByteArray: AQAAAA==
+    - Name: Jitter
+      Type: Evergine.Mathematics.Vector2,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAA=
+    - Name: PreviousJitter
+      Type: Evergine.Mathematics.Vector2,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAA=
     - Name: EV100
       Type: System.Single
       ValueByteArray: AAAAAA==
@@ -63,7 +75,7 @@ MaterialInfo:
       ValueByteArray: AAAAAA==
     - Name: Roughness
       Type: System.Single
-      ValueByteArray: AAAAAA==
+      ValueByteArray: zcxMPg==
     - Name: Reflectance
       Type: System.Single
       ValueByteArray: AACAPw==
@@ -141,10 +153,10 @@ MaterialInfo:
       Name: null
     - ID: d81d459c-c433-4ee3-bfe5-b45fbce12736
       Name: IblDFGTexture
-    - ID: bf9a9bdd-9ca6-499c-8b22-9e5276733224
-      Name: IBLRadianceTexture
-    - ID: 40fc70d8-ccc5-4b62-87f1-bfd4af900d7b
-      Name: IBLIrradianceTexture
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
     - ID: 00000000-0000-0000-0000-000000000000
