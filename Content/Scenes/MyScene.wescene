@@ -118,57 +118,6 @@ Items:
         Id: 3f7df33e-e1b9-411e-9601-362975b0c871
     Id: 6a094fea-e84d-4cbc-bb6e-60ccc60b5693
   - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
-    Name: postProcesingVolume
-    Tag: null
-    IsEnabled: true
-    IsStatic: false
-    Components:
-      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
-        Id: e07c3b5b-a4ec-4b15-bb9a-4874bdcdd30e
-        IsEnabled: true
-        LocalOrientation:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        LocalPosition:
-          X: 0.245068789
-          Y: 0.537000775
-          Z: 1.05647135
-        LocalScale:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-      - !Evergine.Components.Graphics3D.PostProcessingGraphRenderer,Evergine.Components
-        Id: 1d9b06f1-d13c-4efe-97ea-f4ae8de67fb1
-        DebugBoundingbox: true
-        IsCullingEnabled: true
-        IsEnabled: true
-        IsGlobal: true
-        LayerOrder: 20
-        OrderBias: 0
-        RenderFlags: CastShadows
-        ppGraph: dd593717-0922-4f58-9c85-c309658eff03
-      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
-        Id: 790d9971-d3a7-44e5-9444-8256d71d21a9
-        IsEnabled: true
-        Margin: 0.0399999991
-        Offset:
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        OrientationOffset:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        Size:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-    Children: []
-    Id: 5f8234ac-8306-4055-9ea8-848ef414e8be
-  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: floor
     Tag: Skybox
     IsEnabled: true
@@ -294,7 +243,7 @@ Items:
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.40737057
+            Exposure: 1.34961236
             FarPlane: 50.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
@@ -397,7 +346,7 @@ Items:
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.40655267
+            Exposure: 1.47922552
             FarPlane: 50.0
             FieldOfView: 1.22173047
             FieldOfViewAxis: Vertical
@@ -1037,6 +986,57 @@ Items:
         Children: []
         Id: 98f31572-ea0f-42ba-91ea-50f278557be9
     Id: 26cdfb8b-cb05-4088-b9db-c6f0e4c5793b
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: postProcessingVolume
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: 57fa1de0-8f1b-4255-9afa-bef6c63953c2
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -0.741691589
+          Y: -0.367816687
+          Z: -0.288228989
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !Evergine.Components.Graphics3D.PostProcessingGraphRenderer,Evergine.Components
+        Id: 2264ed00-fc9c-4dd5-91a3-9db7e4743df8
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        IsGlobal: true
+        LayerOrder: 10
+        OrderBias: 0
+        RenderFlags: CastShadows
+        ppGraph: dd593717-0922-4f58-9c85-c309658eff03
+      - !Evergine.Framework.Physics3D.BoxCollider3D,Evergine.Framework
+        Id: b4d92539-3ca0-43a8-8b66-1b6f3d6e480d
+        IsEnabled: true
+        Margin: 0.0399999991
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        OrientationOffset:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Size:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children: []
+    Id: 4eeea2f7-e099-4ef7-ae3a-e6652e805d1c
 Managers:
   - !Evergine.Framework.Managers.EnvironmentManager,Evergine.Framework
     Id: 45e9eb11-5d45-4268-a10e-84794a859e21

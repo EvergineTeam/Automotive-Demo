@@ -2,7 +2,10 @@
 Packages:
   - Id: Evergine.Core
     LocalPath: null
-    Version: 2024.10.21.1431-nightly
+    Version: 2024.10.24.7
+Parameters:
+  MaxSkinningWeights: 4
+  SparseMorphTargets: false
 Profiles:
   - AdditionalEffectTechniqueCombinations: SHADOW_SUPPORTED
     AlphaCompressionFormat: BC3_UNorm
