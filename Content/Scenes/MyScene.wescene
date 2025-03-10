@@ -10,10 +10,10 @@ Items:
         Id: 34fe1903-039d-4944-bc32-d2226ad76267
         IsEnabled: true
         LocalOrientation:
-          W: 0.707106769
-          X: -4.34017835E-08
-          Y: 0.707106769
-          Z: -5.19330889E-09
+          W: 0.831391215
+          X: -4.15565822E-08
+          Y: 0.555687547
+          Z: -1.35549314E-08
         LocalPosition:
           X: 0.0
           Y: 0.600000024
@@ -63,7 +63,7 @@ Items:
     Children:
       - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: SunLight
-        Tag: null
+        Tag: Sun
         IsEnabled: true
         IsStatic: false
         Components:
@@ -106,10 +106,10 @@ Items:
             ShadowDistance: 8.0
             ShadowOpacity: 1.0
             SplitDistance:
-              - 0.0
-              - 0.0
-              - 0.0
-              - 0.0
+              - 1.25
+              - 2.75
+              - 5.75
+              - 14.0
             Temperature: 2500.0
           - !Evergine.Framework.Graphics.SunComponent,Evergine.Framework
             Id: 6f2b70f3-a505-49a6-9454-130b04d48cd3
@@ -243,7 +243,7 @@ Items:
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.34961236
+            Exposure: 1.22945046
             FarPlane: 50.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
@@ -416,6 +416,7 @@ Items:
                   R: 1.0
                 LuminousPower: 20.0
                 ShadowBias: 0.00400000019
+                ShadowNearPlane: 0.100000001
                 ShadowOpacity: 1.0
                 Temperature: 5000.0
             Children: []
@@ -638,7 +639,6 @@ Items:
         RenderFlags: CastShadows
       - !Evergine.Components.Animation.Animation3D,Evergine.Framework
         Id: 57fadfa7-e8f5-48ee-aa1b-016627edb077
-        AnimationState: Stopped
         ApplyRootMotion: true
         CurrentAnimation: Take 001
         IsEnabled: true
