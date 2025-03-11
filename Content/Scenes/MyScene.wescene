@@ -108,7 +108,7 @@ Items:
             SplitDistance:
               - 1.25
               - 2.75
-              - 5.75
+              - 5.875
               - 14.0
             Temperature: 2500.0
           - !Evergine.Framework.Graphics.SunComponent,Evergine.Framework
@@ -180,10 +180,10 @@ Items:
         Id: 51a0eb79-445f-45a8-bb3f-9ae78f985ad2
         IsEnabled: true
         LocalOrientation:
-          W: 0.341694504
-          X: -0.0149187148
-          Y: -0.938798308
-          Z: -0.0409888141
+          W: 0.381751508
+          X: -0.0166676175
+          Y: -0.923235357
+          Z: -0.0403093472
         LocalPosition:
           X: 0.0
           Y: 0.5
@@ -235,15 +235,15 @@ Items:
           - !Evergine.Framework.Graphics.Camera3D,Evergine.Framework
             Id: 947d9c4e-4d8f-4a45-a97d-5b326789dd30
             Aperture: 1.0
-            AutoDepthBounds: true
-            AutoExposureEnabled: true
+            AutoDepthBounds: false
+            AutoExposureEnabled: false
             CameraOrder: 0.0
             ClearDepth: 1.0
             ClearFlags: All
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.22945046
+            Exposure: 1.60000002
             FarPlane: 50.0
             FieldOfView: 0.785398185
             FieldOfViewAxis: Vertical
@@ -338,19 +338,19 @@ Items:
           - !Evergine.Framework.Graphics.Camera3D,Evergine.Framework
             Id: e25ca867-f42a-44de-9990-d594b6c19336
             Aperture: 1.0
-            AutoDepthBounds: true
-            AutoExposureEnabled: true
+            AutoDepthBounds: false
+            AutoExposureEnabled: false
             CameraOrder: 0.0
             ClearDepth: 1.0
             ClearFlags: All
             ClearStencil: 0
             Compensation: 0.0
             DisplayTag: null
-            Exposure: 1.47922552
+            Exposure: 1.06494534
             FarPlane: 50.0
             FieldOfView: 1.22173047
             FieldOfViewAxis: Vertical
-            FocalDistance: 1.0
+            FocalDistance: 0.600000024
             FocalLength: 50.0
             FrameBuffer: null
             FrustumCullingEnabled: true
@@ -433,9 +433,9 @@ Items:
         Id: 340d5b66-5020-4ff9-87e0-9f650bcf10af
         IsEnabled: true
         LocalOrientation:
-          W: 0.707106829
-          X: -0.707106709
-          Y: 5.47911759E-06
+          W: 0.707106769
+          X: -0.707106769
+          Y: 5.47911804E-06
           Z: 5.47911804E-06
         LocalPosition:
           X: 0.883868456
@@ -1046,7 +1046,7 @@ Managers:
     Strategy: Automatically
   - !Evergine.Framework.Managers.ShadowMapManager,Evergine.Framework
     Id: 5bb0517f-caf2-43b2-8c4e-39925a4b1c9a
-    AutoDepthBounds: true
+    AutoDepthBounds: false
     DirectionalResolution: Size_1024
     IsEnabled: true
     PunctualResolution: Size_256

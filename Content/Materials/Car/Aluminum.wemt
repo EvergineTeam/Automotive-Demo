@@ -6,7 +6,7 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: 0f075dfa-6576-43eb-aa1d-7ecd352e7958
+  Id: ad1c7589-c700-4286-8519-f8f4f25bcc30
   ActiveDirectives:
     - IBL
     - LIT
@@ -18,18 +18,33 @@ MaterialInfo:
     - Name: World
       Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: AAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAPw==
+    - Name: PreWorld
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+    - Name: WorldInvTrans
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
     - Name: ForwardLightMask
       Type: Evergine.Mathematics.UInt2,Evergine.Mathematics
       ValueByteArray: AwAAAAAAAAA=
     - Name: ViewProj
       Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
       ValueByteArray: HxIIQAAAAAAAAAAAAAAAAAAAAACYMgpADf/kvjD55L4AAAAAmjKKvwv/ZL8u+WS/AAAAAHmCGjUf7ItAvRuPQA==
+    - Name: PreViewProj
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
     - Name: EyePosition
       Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
       ValueByteArray: AAAAAAAAAEAAAIBA
     - Name: EyeCount
       Type: System.Int32
       ValueByteArray: AQAAAA==
+    - Name: Jitter
+      Type: Evergine.Mathematics.Vector2,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAA=
+    - Name: PreviousJitter
+      Type: Evergine.Mathematics.Vector2,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAA=
     - Name: EV100
       Type: System.Single
       ValueByteArray: AAAAAA==
@@ -48,6 +63,9 @@ MaterialInfo:
     - Name: MultiviewEyePosition
       Type: Evergine.Mathematics.Vector4,Evergine.Mathematics
       ValueByteArray: AAAAAAAAAEAAAIBAAACAPw==
+    - Name: LightBufferCount
+      Type: System.UInt32
+      ValueByteArray: AAAAAA==
     - Name: BaseColor
       Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
       ValueByteArray: r66uPq+urj6vrq4+
@@ -78,14 +96,17 @@ MaterialInfo:
     - Name: TextureOffset1
       Type: Evergine.Mathematics.Vector2,Evergine.Mathematics
       ValueByteArray: AAAAAAAAAAA=
+    - Name: TextureTiling
+      Type: Evergine.Mathematics.Vector2,Evergine.Mathematics
+      ValueByteArray: AACAPwAAgD8=
     - Name: Emissive
       Type: Evergine.Mathematics.Vector3,Evergine.Mathematics
       ValueByteArray: AACAPwAAgD8AAIA/
     - Name: EmissiveIntensity
       Type: System.Single
       ValueByteArray: AABAQA==
-    - Name: LightBufferCount
-      Type: System.UInt32
+    - Name: TextureRotation
+      Type: System.Single
       ValueByteArray: AAAAAA==
     - Name: IrradianceSH
       Type: Evergine.Mathematics.Vector4,Evergine.Mathematics
@@ -137,10 +158,10 @@ MaterialInfo:
       Name: null
     - ID: d81d459c-c433-4ee3-bfe5-b45fbce12736
       Name: IblDFGTexture
-    - ID: 3633881b-de41-412b-a292-61aa3f348854
-      Name: IBLRadianceTexture
-    - ID: 546ef928-58f5-411a-871a-e6e28924f5e8
-      Name: IBLIrradianceTexture
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
     - ID: 00000000-0000-0000-0000-000000000000
