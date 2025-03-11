@@ -108,7 +108,7 @@ Items:
             SplitDistance:
               - 1.25
               - 2.75
-              - 5.875
+              - 5.75
               - 14.0
             Temperature: 2500.0
           - !Evergine.Framework.Graphics.SunComponent,Evergine.Framework
@@ -270,6 +270,13 @@ Items:
             TAU: 1.10000002
             TagFilter: null
             UsePhysicalParameters: false
+          - !AutomotiveDemo.AutoFocus,AutomotiveDemo
+            Id: a8527722-8d7a-4f4d-a54c-be8311062621
+            ActiveCamera: false
+            IsEnabled: true
+            Smooth: 0.400000006
+            Target: FocusTarget
+            UpdateOrder: 0.5
         Children: []
         Id: 15a32dda-9878-4fa5-873b-d9cf3c5dde63
     Id: 5c183776-e0bc-4698-ad83-f4f198b722e9
@@ -1037,6 +1044,30 @@ Items:
           Z: 1.0
     Children: []
     Id: 4eeea2f7-e099-4ef7-ae3a-e6652e805d1c
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
+    Name: focusTarget
+    Tag: FocusTarget
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
+        Id: ec731f7a-64ef-4e78-8f55-28fe97f0dcb5
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children: []
+    Id: f33fd8fd-9612-4c39-8c05-beefa0275876
 Managers:
   - !Evergine.Framework.Managers.EnvironmentManager,Evergine.Framework
     Id: 45e9eb11-5d45-4268-a10e-84794a859e21
