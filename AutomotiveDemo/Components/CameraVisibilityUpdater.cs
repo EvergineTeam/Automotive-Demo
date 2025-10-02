@@ -21,9 +21,9 @@ namespace AutomotiveDemo.Components
             return base.OnAttached();
         }
 
-        protected override void OnDetach()
+        protected override void OnDetached()
         {
-            base.OnDetach();
+            base.OnDetached();
 
             if (!Application.Current.IsEditor)
             {
