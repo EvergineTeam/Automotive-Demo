@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net9.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
@@ -10,15 +10,15 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Evergine.Android" Version="2025.10.2.194-nightly" />
-    <PackageReference Include="Evergine.Vulkan" Version="2025.10.2.194-nightly" />
-    <PackageReference Include="Evergine.OpenAL" Version="2025.10.2.194-nightly" />
-    <PackageReference Include="Evergine.Targets" Version="2025.10.2.194-nightly" />
-    <PackageReference Include="Evergine.Targets.Android" Version="2025.10.2.194-nightly" />
+    <PackageReference Include="Evergine.Android" Version="2025.10.17.753-nightly" />
+    <PackageReference Include="Evergine.Vulkan" Version="2025.10.17.753-nightly" />
+    <PackageReference Include="Evergine.OpenAL" Version="2025.10.17.753-nightly" />
+    <PackageReference Include="Evergine.Targets" Version="2025.10.17.753-nightly" />
+    <PackageReference Include="Evergine.Targets.Android" Version="2025.10.17.753-nightly" />
     <PackageReference Include="Evergine.LibBulletc.Natives" Version="2025.8.29.27" />
   </ItemGroup>
   <ItemGroup>
-	<ProjectReference Include="..\AutomotiveDemo\AutomotiveDemo.csproj" />
+    <ProjectReference Include="..\AutomotiveDemo\AutomotiveDemo.csproj" />
   </ItemGroup>
   <ItemGroup>
     <LinkDescription Include="linker.xml" />
