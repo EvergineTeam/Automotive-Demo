@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Evergine.OpenGL" Version="2025.10.2.194-nightly" />
+    <PackageReference Include="Evergine.HLSLEverywhere" Version="2025.10.2.194-nightly" />
+    <PackageReference Include="Evergine.XAudio2" Version="2025.10.2.194-nightly" />
+    <PackageReference Include="Evergine.Forms" Version="2025.10.2.194-nightly" />
+    <PackageReference Include="Evergine.Targets" Version="2025.10.2.194-nightly" />
+    <PackageReference Include="Evergine.Targets.Windows" Version="2025.10.2.194-nightly" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutomotiveDemo\AutomotiveDemo.csproj" />
+  </ItemGroup>
+
+</Project>
